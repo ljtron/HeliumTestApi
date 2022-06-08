@@ -1,0 +1,19 @@
+{
+  "name": "testserverhelium",
+  "version": "1.0.0",
+  "description": "This api will recieve data from temperatures that are communicating with the Helium blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljtron/HeliumTestApi.git"
+  },
+  "author": "Lincoln Alphonso Mcloud Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljtron/HeliumTestApi/issues"
+  },
+  "homepage": "https://github.com/ljtron/HeliumTestApi#readme"
+}
