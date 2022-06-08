@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ljtron/HeliumTestApi/issues"
   },
-  "homepage": "https://github.com/ljtron/HeliumTestApi#readme"
+  "homepage": "https://github.com/ljtron/HeliumTestApi#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
 }
