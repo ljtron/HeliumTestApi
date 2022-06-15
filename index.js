@@ -11,7 +11,17 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 app.get("/", (req,res)=>{
+    console.log("Hi")
     res.json("Hi")
+})
+
+app.get("/test", (req,res)=>{
+    res.json("test")
+})
+
+app.post("/another", (req,res)=>{
+    console.log(req.body)
+    res.json(req.body)
 })
 
 app.post("/data", (req,res) =>{
