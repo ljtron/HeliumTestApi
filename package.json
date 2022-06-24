@@ -4,7 +4,7 @@
   "description": "This api will recieve data from temperatures that are communicating with the Helium blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongoose": "^6.4.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.18",
+    "regex": "^0.1.1"
   }
 }
