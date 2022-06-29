@@ -19,7 +19,7 @@ const dataModel = require("./models/data")
 app.post("/", (req,res)=>{
     //console.log(req.body)
     if(req.body.decoded.payload.data.substring(0, 2) != 00 && req.body.decoded.payload.data.length >= 6){
-        exec("python3 ../mqps/config_decoder.py -p 012a30", (error, stdout, stderr) => {
+        exec("python3 ../mqps/config_decoder.py -p " + req.body.decoded.payload.data, (error, stdout, stderr) => {
             if (error) {
                 console.log(`error: ${error.message}`);
                 return;
